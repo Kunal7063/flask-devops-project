@@ -12,3 +12,4 @@ EXPOSE 5000
 
 CMD ["python", "app.py"]
 
+ENV APP_MESSAGE="Hello from Docker"
